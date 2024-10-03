@@ -448,7 +448,7 @@ header .intro-text {
 /* Features Section */
 #features {
   width: 100%!important;
-  padding: 150px 0;
+  padding: 80px 0 150px 0;
   background-image: linear-gradient(to right, #f1f1f1 0%, #ffffff 100%);
 
 }
@@ -458,6 +458,22 @@ header .intro-text {
   width: 400px;
   height: 300px;
   border-radius: 10px;
+}
+.features-hidro{
+  background:url(../img/hidromecanico.jpeg) center center no-repeat; 
+  width: 400px;
+  height: 510px;
+  border-radius: 8px;
+  
+ 
+}
+.features-em{
+  background:url(../img/obras.jpeg) center center no-repeat; 
+  width: 400px;
+  height: 510px;
+  border-radius: 8px;
+
+
 }
 
 /* About Section */
@@ -560,7 +576,7 @@ header .intro-text {
   color: #fff;
 }
 #services_hidro img {
-
+  margin-top: 60px;
   transform: matrix(1, 0.1, 0.1, 1.2, -100, 0);
 
 }
@@ -613,9 +629,26 @@ header .intro-text {
 
 }
 
+
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 75px 0 30px 0;
+}
+.portfolio-hidro{
+  background:url(../img/hidro-g.jpeg) center center no-repeat; 
+  width: 400px;
+  height: 510px;
+  border-radius: 8px 8px 8px 8px;
+  border: 1px solid #9e9e9e;
+
+ 
+}
+.portfolio-em{
+  background:url(../img/em-g.jpeg) center center no-repeat; 
+  width: 400px;
+  height: 510px;
+  border-radius: 8px 8px 8px 8px;
+  border: 1px solid #9e9e9e;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -899,13 +932,18 @@ label {
   #services_em{
     min-width: 150%;
     padding: 150px 0 200px 0;
+
   }
   #services_hidro img {
     width: 90%;
     transform: matrix(1, 0.1, 0.1, 1,20, 0);
     margin-bottom: 30px!important;
+    margin-top: 0!important;
+
+
   }
   #services_em img {
+    margin-top: 0!important;
 
     width: 90%;
     transform: matrix(1, -0.1, -0.1, 1, 20, 30);
@@ -959,7 +997,6 @@ label {
   #services_hidro img {
     transform: matrix(1, 0.1, 0.1, 1.3, 0, 10);
     margin-bottom: 30px!important;
-
   }
   #services_em img {
     transform: matrix(1, 0.1, 0.1, 1.3, 0, 10);
